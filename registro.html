@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+            Body {color:black;
+             background:greenyellow;}
+             Em{ color:chartreuse}
+        </style>
+    <title>REGISTRO</title>
+</head>
+<body>
+    <form NAME= FORMULARIO ><br>
+        <h1 align=center>FORMULARIO DE REGISTRO</h1>
+        
+        <input type="number">CEDULA<br>
+        <input type="email">E-MAIL<br>
+        <input type="text">NOMBRES<br>
+        <input type="text">APELLIDOS<br>
+        <input type="date">FECHA NACIMIENTO<br><br>
+        <label>¿A donde te gustaria viajar?</label><br><br>
+        <input type="checkbox" checked>La casa Azul de marin kun<br>
+        <input type="checkbox">Puyo<br>
+        <input type="checkbox">Baños<br>
+        <input type="checkbox">Santa Elena<br>
+        <input type="checkbox">Otro lugar<br>
+        <label>¿Donde?</label><br>
+        <textarea cols="15" rows="6"></textarea><br><!--un cuadro de texto con esas dimensiones-->
+        <label>Sexo</label><br>
+        <input type="radio" name="sexo">Maculino<br>
+        <input type="radio" name="sexo">Femenino<br>
+        <input type="submit" value="Enviar!"><!--se enviara y recarga todo-->
+        <input type="reset" value="Resetear"><!--borrara la info reseteando todo-->
+        
+    </form>
+<form method="GET" action="principal.html"><!--llevara a la pagina principal mediante el metodo get, usando submit de envio de datos-->
+    <input type="submit" value="VOLVER AL MENU PRINCIPAL">
+</form>
+     
+
+</body>
+</html>
